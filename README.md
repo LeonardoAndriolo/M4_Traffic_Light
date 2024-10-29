@@ -27,21 +27,18 @@ Repare aqui que foram utilizados fios brancos para a saída dos LEDs e fios colo
 </div>
 
 Os componentes foram conectados nas seguintes portas:
+    
     - Porta digital 10: LED Vermelho
+    
     - Porta digital 9: LED Amarelo
+    
     - Porta digital 8: LED Verde
+    
     - Porta digital 7: Buzzer
 
 O sistema pode ser visto funcionando nos vídeos a seguir. O primeiro demonstra o buzzer apitando três vezes ao acender o LED verde, visando simular um sinal de pedestres incluindo pedestres com deficiência visual, e o segundo demonstra o semáforo piscando sequencialmente 6s no vermelho, 2s no amarelo, 4s no verde e 2s no amarelo novamente.
-
-<div style="text-align: center;">
-    <video width="320" height="240" controls>
-        <source src="Assets/video_1.mp4" type="video/mp4">
-    </video>
-    <video width="320" height="240" controls>
-        <source src="Assets/video_2.mp4" type="video/mp4">
-    </video>
-</div>
+<video controls src="Assets/video_1.mp4" title="Video 1"></video>
+<video controls src="Assets/video_2.mp4" title="Video 2"></video>
 
 **3. Código do Arduino**
 

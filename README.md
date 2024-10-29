@@ -34,12 +34,10 @@ Os componentes foram conectados nas seguintes portas:
     - Porta digital 7: Buzzer
 
 O sistema pode ser visto funcionando nos vídeos a seguir. O primeiro demonstra o buzzer apitando três vezes ao acender o LED verde, visando simular um sinal de pedestres incluindo pedestres com deficiência visual, e o segundo demonstra o semáforo piscando sequencialmente 6s no vermelho, 2s no amarelo, 4s no verde e 2s no amarelo novamente.
-<video width="320" height="240" controls>
-    <source src="Assets/video_1.mp4" type="video/mp4">
-</video>
-<video width="320" height="240" controls>
-    <source src="Assets/video_2.mp4" type="video/mp4">
-</video>
+
+https://github.com/user-attachments/assets/b819a026-4567-40c1-ad4a-f59604049d45
+
+https://github.com/user-attachments/assets/61af259d-907e-4da3-afbd-9b798cba1d76
 
 **3. Código do Arduino**
 

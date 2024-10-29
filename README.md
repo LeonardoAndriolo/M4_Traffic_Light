@@ -1,8 +1,10 @@
-**Introdução**
+# Protótipo de Semáforo
+
+## **Introdução**
 
 Este projeto é um protótipo de semáforo usando LEDs. Ele simula o funcionamento de um semáforo tradicional, alternando entre os estados de luz verde, amarela e vermelha, com o suporte de um som de alerta emitido por um buzzer em determinados momentos.
 
-**1. Componentes Utilizados**
+## **1. Componentes Utilizados**
 
 | Componente   | Quantidade | Descrição                                          |
 |--------------|------------|----------------------------------------------------|
@@ -13,7 +15,7 @@ Este projeto é um protótipo de semáforo usando LEDs. Ele simula o funcionamen
 | Resistores   | 3          | Um para cada LED                         |
 | Fios jumper  | Vários     | Para as conexões entre componentes e Arduino       |
 
-**2. Montagem do Circuito**
+## **2. Montagem do Circuito**
 
 O circuito completo foi montado segundo a imagem a seguir (repare que o buzzer não está conectado).
 <div style="text-align: center;">
@@ -39,7 +41,7 @@ https://github.com/user-attachments/assets/b819a026-4567-40c1-ad4a-f59604049d45
 
 https://github.com/user-attachments/assets/61af259d-907e-4da3-afbd-9b798cba1d76
 
-**3. Código do Arduino**
+## **3. Código do Arduino**
 
 O código abaixo controla o protótipo do semáforo na IDE do Arduíno.
 ```c
@@ -92,4 +94,15 @@ void loop() {
   delay(2000);
 }
 ```
+## 4. Template Avaliação Pares
+
+### Avaliador: Matheus Jorge
+
+| Critério  | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
+|---|---|---|---|---|
+| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores  | Até 3  | Até 1,5  | 0 | Sistema bem montado  |
+| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo    | Até 3   | Até 1,5 | 0 | Vídeo demonstrando um cronômetro  |
+| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3 | Até 1,5   | 0 |  Código implementa o que foi pedido com a adição de um for loop para ativar o buzzer     |
+| Extra: Implementou um componente de liga/desliga no semáforo e/ou usou ponteiros no código | Até 1              |  Até 0,5     | 0    |  Utilizou um buzzer como indicação sonora do LED verde     |
+|  |                                         |  |**10**|**Pontuação Total**|
 
